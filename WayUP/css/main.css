@@ -1,0 +1,180 @@
+@font-face {
+	font-family: 'Myriad Pro', sans-serif;
+	src: url('../fonts/Myriad Pro Regular.ttf');
+}
+
+body {
+	font-family: 'Ubuntu', sans-serif;
+	color: #201b2d;
+	font-size: 15px;
+	padding: 0;
+	margin: 0;
+}
+
+div, p, input, button, span, p {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4 {
+	margin: 0;
+}
+
+.container {
+	width: 1172px;
+	margin: 0 auto;
+}
+
+.header {
+	background: -webkit-linear-gradient(90deg, rgb(77, 190, 254), rgb(55, 143, 217));
+	background: -moz-linear-gradient(90deg, rgb(77, 190, 254), rgb(55, 143, 217));
+	background: linear-gradient(90deg, rgb(77, 190, 254), rgb(55, 143, 217));
+	padding-top: 58px;
+	padding-bottom: 65px;
+	color: #fff;
+}
+
+.logo {
+
+}
+
+.wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+
+.offer {
+	margin-top: 140px;
+	width: 488px;
+}
+
+.title {
+	font-family: 'Myriad Pro', sans-serif;
+	font-weight: 400;
+	font-size: 37px;
+	line-height: 1.5;
+	width: 555px;
+}
+
+.title span {
+	font-size: 59px;
+}
+
+.intro {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	margin: 40px 0;
+	width: 390px;
+}
+
+.btn {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	padding: 20px 0;
+	text-align: center;
+	text-decoration: none;
+	color: #2e2a1b;
+	width: 220px;
+	display: block;
+	background: #ffd429;
+	transition: all 0.5s ease;
+}
+
+.btn:hover {
+	background: #eabe0e;
+}
+
+.expectation {
+	color: #201b2d;
+	background: #fff;
+	padding-top: 112px;
+	padding-bottom: 120px;
+}
+
+.what {
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 700;
+	font-size: 30px;
+	text-align: center;
+}
+
+.expectations {
+	justify-content: space-between;
+	display: flex;
+	padding-top: 65px;
+	font-family: 'Ubuntu', sans-serif;
+	text-align: center;
+}
+
+.expectation1 {
+	width: 292px;
+	background: url(../img/icon1.jpeg) no-repeat center top;
+	padding-top: 85px;
+}
+
+h3 {
+	font-size: 19px;
+	font-weight: 700;
+}
+
+p {
+	font-style: 15px;
+	font-weight: 400;
+	line-height: 1.5;
+}
+
+.expectation2 {
+	width: 262px;
+	background: url(../img/icon2.jpeg) no-repeat center top;
+	padding-top: 85px;
+}
+
+.expectation3 {
+	width: 317px;
+	background: url(../img/icon3.jpeg) no-repeat center top;
+	padding-top: 85px;
+}
+
+.future {
+	background: #ecf3f8;
+	padding-top: 95px;
+	padding-bottom: 100px;
+}
+
+.future h2 {
+	padding-bottom: 62px;
+}
+
+.form {
+	padding-left: 415px;
+	width: 345px;
+}
+
+.input {
+	width: 345px;
+	height: 45px;
+	margin-bottom: 15px;
+	padding: 18px 25px;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 400;
+	color: #bbbbbb;
+	border: 1px solid #bbbbbb;
+}
+
+.btn-form {
+	background: #ffd429;
+	width: 345px;
+	border: 0;
+}
+
+.footer {
+	background: #164d7a;
+	padding: 60px 0;
+}
+
+.credits {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	color: #fff;
+	text-align: center;
+}
