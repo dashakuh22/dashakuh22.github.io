@@ -15,10 +15,6 @@ div, p, input, button, span, p {
 	box-sizing: border-box;
 }
 
-h1, h2, h3, h4 {
-	margin: 0;
-}
-
 .container {
 	width: 1172px;
 	margin: 0 auto;
@@ -52,7 +48,6 @@ h1, h2, h3, h4 {
 	font-weight: 400;
 	font-size: 37px;
 	line-height: 1.5;
-	width: 555px;
 }
 
 .title span {
@@ -88,10 +83,10 @@ h1, h2, h3, h4 {
 	background: #fff;
 	padding-top: 112px;
 	padding-bottom: 120px;
+	font-family: 'Ubuntu', sans-serif;
 }
 
 .what {
-	font-family: 'Ubuntu', sans-serif;
 	font-weight: 700;
 	font-size: 30px;
 	text-align: center;
@@ -101,7 +96,6 @@ h1, h2, h3, h4 {
 	justify-content: space-between;
 	display: flex;
 	padding-top: 65px;
-	font-family: 'Ubuntu', sans-serif;
 	text-align: center;
 }
 
@@ -111,12 +105,12 @@ h1, h2, h3, h4 {
 	padding-top: 85px;
 }
 
-h3 {
+.expectations h3 {
 	font-size: 19px;
 	font-weight: 700;
 }
 
-p {
+.expectations p {
 	font-style: 15px;
 	font-weight: 400;
 	line-height: 1.5;
@@ -147,6 +141,8 @@ p {
 .form {
 	padding-left: 415px;
 	width: 345px;
+	display: flex;
+	flex-direction: column;
 }
 
 .input {
@@ -177,4 +173,94 @@ p {
 	font-size: 14px;
 	color: #fff;
 	text-align: center;
+}
+
+/*Responsive*/
+
+/*1200px-1400px*/
+@media screen and (max-width: 1400px) {
+	.container {
+		width: 1140px;
+	}
+}
+
+/*992px-1200px*/
+@media screen and (max-width: 1200px) {
+	.container {
+		width: 	960px;
+	}
+	.wrapper {
+		flex-direction: column;
+		text-align: center;
+	}
+	.offer {
+		width: 100%;
+	}
+	.world {
+		display: block;
+		margin: 0 auto; 
+	}
+	.intro {
+		width: 100%;
+	}
+	.btn {
+		margin: 0 auto;
+	}
+	.form {
+		padding: 0;
+		margin: 0 auto;
+	}
+}
+
+/*768px-992px*/
+@media screen and (max-width: 992px) {	
+	.container {
+		width: 720px;
+	}
+}
+
+/*576px-768px*/
+@media screen and (max-width: 768px) {
+	.container {
+		width: 540px;
+	}
+	.world {
+		width: 80%;
+	}
+	.expectations {
+		flex-direction: column;
+		align-content: center;
+		align-items: center;
+	}
+}
+
+/*0px-576px*/
+@media screen and (max-width: 576px) {
+	.container {
+		width: 90%;
+	}
+	.btn {
+		width: auto;
+	}
+	.form {
+		width: auto;
+	}
+	.input {
+		width: auto;
+	}
+	.btn-form {
+		width: auto;
+	}
+	.title span {
+		font-size: 50px;
+	}
+	.expectation1 {
+		width: auto;
+	}
+	.expectation2 {
+		width: auto;
+	}
+	.expectation3 {
+		width: auto;
+	}
 }
