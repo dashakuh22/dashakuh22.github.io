@@ -91,10 +91,10 @@ footer {
   background-image: url('../images/rock.png');
 }
 .player-selection-paper {
-  background-image: url('C:/Users/Dasha Kukhnovets/Desktop/rock-scissors-paper-game/images/paper.png');
+  background-image: url('../images/paper.png');
 }
 .player-selection-scissors {
-  background-image: url('C:/Users/Dasha Kukhnovets/Desktop/rock-scissors-paper-game/images/scissors.png');
+  background-image: url('../images/scissors.png');
 }
 .player-selection-water {
   background-image: url('C:/Users/Dasha Kukhnovets/Desktop/rock-scissors-paper-game/images/water.png');
